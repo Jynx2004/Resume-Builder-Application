@@ -1,0 +1,134 @@
+/* Resume.css */
+.resume {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .base {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .photo {
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+  
+  .photo i {
+    font-size: 80px;
+    color: #007bff; /* Adjust color as needed */
+  }
+  
+  .info h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .info h2 {
+    margin: 0;
+    color: #555;
+  }
+  
+  .about, .contact, .follow {
+    margin-bottom: 20px;
+  }
+  
+  .about h3, .contact h3, .follow h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  
+  .contact div {
+    margin-bottom: 10px;
+  }
+  
+  .contact a {
+    color: #007bff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact a i {
+    margin-right: 10px;
+  }
+  
+  .follow .box a {
+    color: #333;
+    margin-right: 10px;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .follow .box a:hover {
+    color: #007bff;
+  }
+  
+  .func {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .work, .edu, .skills-prog, .skills-soft, .interests {
+    margin-bottom: 20px;
+  }
+  
+  .work h3, .edu h3, .skills-prog h3, .skills-soft h3, .interests h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  
+  .skills-bar {
+    background: #f3f3f3;
+    border-radius: 5px;
+    height: 10px;
+    overflow: hidden;
+  }
+  
+  .bar {
+    background: #007bff;
+    height: 100%;
+    width: 0;
+    transition: width 0.5s;
+  }
+  
+  .skills-soft svg {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .skills-soft circle {
+    fill: none;
+    stroke-width: 10;
+    stroke: #eee;
+  }
+  
+  .skills-soft .cbar {
+    stroke: #007bff;
+    stroke-dasharray: 0, 100;
+    transition: stroke-dasharray 0.5s;
+  }
+  
+  .interests-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .interests-items div {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .interests-items i {
+    margin-right: 5px;
+  }
+  
